@@ -1,4 +1,4 @@
-# Hafıza
+# ClaudeMoreMemory
 
 Kendi bilgisayarında çalışan, **kurulum gerektirmeyen** iki küçük hafıza aracı ve Claude Code bağlantısı. Obsidian ve Graphify'a yerel, ücretsiz bir alternatif.
 
@@ -15,8 +15,8 @@ Notların düz `.md` dosyalarıdır. Hiçbir yere gönderilmez, API anahtarı ge
 **Gereken:** [Node.js 24](https://nodejs.org) veya üstü.
 
 ```bash
-git clone https://github.com/enisaltun/hafiza.git
-cd hafiza
+git clone https://github.com/enisaltun/ClaudeMoreMemory.git
+cd ClaudeMoreMemory
 npm install
 ```
 
