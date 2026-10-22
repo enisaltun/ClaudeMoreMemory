@@ -35,7 +35,7 @@ npm install
 Bir kez kaydet (`TAM\YOL` yerine klasörün yolunu yaz):
 
 ```bash
-claude mcp add hafiza -- node "TAM\YOL\hafiza\mcp\server.js"
+claude mcp add hafiza -- node "TAM\YOL\ClaudeMoreMemory\mcp\server.js"
 ```
 
 Sonra Claude'a şöyle isteklerde bulunabilirsin: *"notlarımda X hakkında ne yazdım?"*, *"bu karardan bir not oluştur"*, *"projenin en merkezi dosyaları hangileri?"*.
