@@ -1,0 +1,43 @@
+Copyright (c) 2026 Enis Altun. Tüm hakları saklıdır. / All rights reserved.
+
+TÜRKÇE
+------
+Bu yazılımın ("Yazılım") tüm telif hakları Enis Altun'a aittir.
+
+Ücretsiz kullanım izni: Yazılımı indirmek, kendi bilgisayarında çalıştırmak ve
+kişisel ya da ticari amaçla ÜCRETSİZ kullanmak serbesttir.
+
+Yazılı izin olmadan şunlar yasaktır:
+  - Yazılımı (özgün ya da değiştirilmiş hâlini) satmak, kiralamak, alt lisanslamak,
+    yeniden dağıtmak veya başka bir yerde yayımlamak,
+  - Bu telif hakkı bildirimini kaldırmak ya da değiştirmek,
+  - Yazılımı kendi eseriymiş gibi sunmak.
+
+Açıkça verilmeyen tüm haklar saklıdır.
+
+YAZILIM "OLDUĞU GİBİ" SUNULUR; açık ya da zımni hiçbir garanti verilmez. Yazar,
+Yazılımın kullanımından doğabilecek hiçbir zarardan sorumlu tutulamaz.
+
+Üçüncü taraf bağımlılıkları (node_modules) kendi lisanslarına tabidir; bu lisans
+yalnızca bu depodaki Enis Altun'a ait kodu kapsar.
+
+ENGLISH
+-------
+Copyright (c) 2026 Enis Altun. All rights reserved.
+
+Free-use permission: You may download, run and use this software free of charge,
+for personal or commercial purposes.
+
+Without prior written permission you may NOT:
+  - sell, rent, sublicense, redistribute or republish the software (original or
+    modified),
+  - remove or alter this copyright notice,
+  - present the software as your own work.
+
+All rights not expressly granted are reserved.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. THE AUTHOR SHALL
+NOT BE LIABLE FOR ANY CLAIM OR DAMAGES ARISING FROM THE USE OF THE SOFTWARE.
+
+Third-party dependencies (node_modules) are governed by their own licenses; this
+license covers only the code in this repository authored by Enis Altun.
