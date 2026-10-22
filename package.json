@@ -1,0 +1,22 @@
+{
+  "name": "hafiza",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "notes": "node notes-app/server.js",
+    "graph": "node graph-app/server.js",
+    "mcp": "node mcp/server.js",
+    "test": "node --test \"test/*.test.js\"",
+    "bench": "node bench/bench.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "chokidar": "^6.0.0",
+    "force-graph": "^1.52.0",
+    "graphology": "^0.26.0",
+    "graphology-communities-louvain": "^2.0.2",
+    "marked": "^18.1.1",
+    "zod": "^4.6.7"
+  }
+}

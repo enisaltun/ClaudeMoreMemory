@@ -1,0 +1,31 @@
+:root { --bg:#16161c; --panel:#23232c; --line:#363642; --fg:#e4e4ea; --mut:#8b8b99; --acc:#8b7cf6; }
+@media (prefers-color-scheme: light) {
+  :root { --bg:#fafafc; --panel:#f0f0f5; --line:#d8d8e2; --fg:#222; --mut:#777; --acc:#6a5acd; }
+}
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; }
+body { background: var(--bg); color: var(--fg); font: 14px/1.5 system-ui, "Segoe UI", sans-serif; display: flex; flex-direction: column; }
+header { display: flex; gap: 8px; align-items: center; padding: 8px 12px; background: var(--panel); border-bottom: 1px solid var(--line); }
+header input { width: 240px; }
+input, select, textarea { padding: 5px 8px; background: var(--bg); color: var(--fg); border: 1px solid var(--line); border-radius: 6px; }
+button { background: var(--bg); color: var(--fg); border: 1px solid var(--line); border-radius: 6px; padding: 5px 12px; cursor: pointer; }
+button:hover { border-color: var(--acc); }
+#stat { color: var(--mut); margin-left: auto; font-size: 12px; }
+#graph { flex: 1; min-height: 0; }
+#info { position: absolute; right: 12px; top: 56px; width: 300px; max-height: calc(100% - 72px); overflow: auto; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px; }
+#info h3 { margin: 0 0 4px; word-break: break-all; }
+#info small { color: var(--mut); word-break: break-all; }
+#info ul { list-style: none; padding: 0; margin: 8px 0 0; }
+#info li { padding: 2px 4px; border-radius: 4px; cursor: pointer; }
+#info li:hover { background: var(--line); }
+dialog { background: var(--panel); color: var(--fg); border: 1px solid var(--line); border-radius: 8px; max-width: 720px; width: 90%; }
+dialog::backdrop { background: rgba(0, 0, 0, .5); }
+dialog pre { white-space: pre-wrap; max-height: 60vh; overflow: auto; }
+dialog textarea { width: 100%; height: 140px; font: 13px Consolas, monospace; }
+.searchbox { position: relative; }
+#sugg { position: absolute; top: 100%; left: 0; width: 360px; max-height: 320px; overflow: auto; z-index: 10; background: var(--panel); border: 1px solid var(--line); border-radius: 6px; }
+#sugg[hidden] { display: none; }
+#sugg div { padding: 4px 8px; cursor: pointer; }
+#sugg div:hover { background: var(--line); }
+#sugg small { color: var(--mut); margin-left: 6px; }
+#comm, #types { max-width: 200px; }

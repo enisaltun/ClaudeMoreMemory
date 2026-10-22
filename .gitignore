@@ -1,0 +1,6 @@
+node_modules/
+graphify-out/
+*.log
+# Kişisel notlar depoya girmez; yalnızca klasör yer tutucusu
+vault/*
+!vault/.gitkeep

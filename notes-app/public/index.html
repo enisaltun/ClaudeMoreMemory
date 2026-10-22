@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Notlar</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<aside id="side">
+  <div class="bar">
+    <button id="new" title="Yeni not">+ Not</button>
+    <button id="daily" title="Bugünün günlük notu">Günlük</button>
+  </div>
+  <input id="filter" placeholder="Ara (Ctrl+P) · #etiket" autocomplete="off">
+  <div id="count"></div>
+  <div id="results"></div>
+  <ul id="tree"></ul>
+</aside>
+<main>
+  <div class="bar">
+    <span id="title">Not seçilmedi</span>
+    <span id="status"></span>
+    <button id="toggle">Önizleme</button>
+    <button id="del">Sil</button>
+  </div>
+  <div id="panes">
+    <textarea id="editor" spellcheck="false" placeholder="Bir not seç ya da oluştur…"></textarea>
+    <div id="preview" hidden></div>
+  </div>
+</main>
+<aside id="right">
+  <h4>Bağlantılar</h4><ul id="links"></ul>
+  <h4>Geri bağlantılar</h4><ul id="backlinks"></ul>
+  <h4>Etiketler</h4><div id="tags"></div>
+</aside>
+<script src="/vendor/marked.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

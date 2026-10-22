@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Graf</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="searchbox">
+    <input id="q" placeholder="Düğüm ara (≥3 harf: alt dize)…" autocomplete="off">
+    <div id="sugg" hidden></div>
+  </div>
+  <select id="types">
+    <option value="">Tüm türler</option>
+    <option value="note">Notlar</option>
+    <option value="file">Dosyalar</option>
+    <option value="symbol">Semboller</option>
+    <option value="tag">Etiketler</option>
+  </select>
+  <select id="comm"><option value="">Tüm topluluklar</option></select>
+  <button id="more" title="Görünüme en merkezi sonraki düğümleri ekle">+ Daha fazla</button>
+  <button id="scan">Yeniden tara</button>
+  <button id="cfg">Kod klasörleri</button>
+  <button id="rep">Rapor</button>
+  <span id="stat"></span>
+</header>
+<div id="graph"></div>
+<aside id="info" hidden></aside>
+<dialog id="dlg"><div id="dlgbody"></div><button id="close">Kapat</button></dialog>
+<script src="/vendor/force-graph.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
